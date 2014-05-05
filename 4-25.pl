@@ -14,7 +14,7 @@ my $packet_info;
 
 #各行の処理
 while (my $line = <$fh>){
-	chomp $line;　#改行の削除
+	chomp $line;#改行の削除
 
 #行ごとに場合分け
 if ($line =~ /^(\d{2}:\d{2}:\d{2})/){
